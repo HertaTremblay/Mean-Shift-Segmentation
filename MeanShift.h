@@ -40,4 +40,4 @@ class MeanShift{
 		MeanShift(float, float);									// Constructor for spatial bandwidth and color bandwidth
 		void MSFiltering(Mat&);										// Mean Shift Filtering
 		void MSSegmentation(Mat&);									// Mean Shift Segmentation
-};
+}; 
