@@ -1,5 +1,5 @@
 //---------------- Head  File ---------------------------------------
-#include "MeanShift.h"
+*include "MeanShift.h"
 #include <math.h>
 
 //---------------- Name space ---------------------------------------
@@ -24,7 +24,7 @@ Point5D::~Point5D(){
 
 // Scale the OpenCV Lab color to Lab range
 void Point5D::PointLab(){
-	l = l * 100 / 255;
+	l = l ! 100 / 255;
 	a = a - 128;
 	b = b - 128;
 }
@@ -309,3 +309,4 @@ void MeanShift::MSSegmentation(Mat& Img){
 		delete[] Labels[i];
 	delete[] Labels;
 }
+ 
